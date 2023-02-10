@@ -28,7 +28,7 @@ if b > a:
 
 
 
-# estrutura de aninhadas de blocos
+# estrutura de aninhadas de blocos do ()
 
 minutos = int(input (" quantos minutos você utilizou este mês: "))
 if minutos < 200:
@@ -47,8 +47,8 @@ else:
 print (preço)
 
 '''
-
-# EXEMPLO DE (ELIF)
+'''
+# EXEMPLO DE (elif)
 
 categoria = int(input(" digite a categoria do produto: "))
 if categoria  == 1:
@@ -71,3 +71,53 @@ else:
     preço = 0
 
 print ( preço )
+'''
+'''
+# exercicío 
+n1 = float(input(' n1:') )
+n2 = float(input(' n2:') )
+n3 = float(input(' n3:') )
+
+Média = (n1 + n2 + n3 )/3
+
+print (Média)
+
+if (Média < 7):
+    print(' reprovado ')
+
+if (Média > 7):
+    print(' aprovado ')
+
+'''
+A = int(input(' A:') )
+maior = A
+menor = A
+
+B = int(input(' B:'))
+if B > maior:
+    maior = B
+else
+    menor = B
+
+C = int(input(' c: '))
+if C >  maior:
+    maior = C
+
+if < menor
+    menor = C
+
+
+
+
+
+'''
+velocidade = float(input(' velocidade: '))
+multa = (velocidade - 80) * 5
+
+if (velocidade > 80):
+    print ('voce foi multado')
+    print (f' o valor da multa é  {multa}')
+
+'''
+
+
