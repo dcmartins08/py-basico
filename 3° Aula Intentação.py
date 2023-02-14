@@ -89,6 +89,7 @@ if (Média > 7):
     print(' aprovado ')
 
 '''
+'''
 A = int(input(' A:') )
 maior = A
 menor = A
@@ -99,16 +100,14 @@ if B > maior:
 else
     menor = B
 
-C = int(input(' c: '))
+C = int(input(' C: '))
 if C >  maior:
     maior = C
 
-if < menor
+if  menor:
     menor = C
 
-
-
-
+'''
 
 '''
 velocidade = float(input(' velocidade: '))
@@ -119,5 +118,61 @@ if (velocidade > 80):
     print (f' o valor da multa é  {multa}')
 
 '''
+'''
+# EXERCÍCIO
+#Escreva um programa que leia dois números e que pergunte qual operação que você deseja realizar.
+#você deve poder calcular a soma (+), Subtração(-), multiplicação (*), e divisão (/).
+#exiba o resultado da operação solicitada.
 
+n1 = float(input('valor 1:'))
+n2 = float(input('valor 2:'))
 
+operação = input('escolha a operação')
+
+if operação == '+':
+    resultado = n1+n2
+
+elif operação == '-':
+    resultado = n1-n2
+
+elif operação == '*':
+    resultado = n1*n2
+
+elif operação == '/':
+    resultado = n1/n2
+
+else:
+    resultado = 0
+    print('opção invalida')
+
+print (resultado)
+
+'''
+'''
+# EXERCÍCIO WHILE(ENQUANTO) IMPRIMINDO DE 1 a 3 com while
+x = 1
+while x <= 3:
+    print (x)
+    x = x + 1
+
+x = 1
+while x <= 100:
+    print (x)
+    x = x + 1
+   
+x = 50
+while x <= 100:
+    print (x)
+    x = x + 1
+
+x = 1
+while x <= 3:
+    print (x)
+    x = x + 1
+
+'''
+
+x = 10
+while x > 0:
+    print (x)
+    x = x - 1
