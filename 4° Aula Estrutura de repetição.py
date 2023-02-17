@@ -39,6 +39,8 @@ while N <= 4:
 
 print(f"soma:  {soma}")
 '''
+
+'''
 #EXERCÍCIO DE INTERROPENDO A REPETIÇÃO
 S = 0
 while True:
@@ -70,3 +72,22 @@ while True:
         print('opção invalida')
 
     print(f'o resultado é {resultado} \n')
+
+'''
+
+
+#EXERCÍCIO
+#Crie um programa em linguagem Python que solite a senha de um usuário e depois,peça pra digitar novamente até que as duas senhas sejam correspondentes. 
+while True:
+    senha  = (input('digite a senha:'))
+    confirmação= (input('confirme senha:'))
+    if senha!= confirmação:
+        print('senha incorreta')
+    else:
+        print('senha confirmada, Parabéns')
+
+
+# EXERCÍCIO
+# Faça um programna que simule um semaforo de trânsito (aqueles com contegens)
+while True:
+    
