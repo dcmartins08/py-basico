@@ -89,5 +89,4 @@ while True:
 
 # EXERCÍCIO
 # Faça um programna que simule um semaforo de trânsito (aqueles com contegens)
-while True:
-    
+

@@ -78,20 +78,20 @@ print (f' {nome}  tem {idade} anos e R$ {grana} Real no bolso ')
 '''
 
 '''
-nome = input (" nome: ")
-idade = int( input (" idade: "))
-grana = float (input ("grana:"))
+nome = input("nome:")
+idade = int(input("idade:"))
+grana = float(input("grana:"))
 print (idade + 1)
 
 '''
 '''
-valor1 = int (input (" valor: ")) 
-valor2 = int (input (" valor: "))
-valor3 = int (input (" valor: "))
+valor1 = int(input("valor:")) 
+valor2 = int(input("valor:"))
+valor3 = int(input("valor:"))
 print (valor3 + 4 )
 '''
 '''
-horas = float( input (" horas: ")) 
+horas = float(input("horas:")) 
 minutos = horas * 60
 seg = horas * 3600
 
