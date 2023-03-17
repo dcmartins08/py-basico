@@ -40,7 +40,7 @@ idade = Alunos.values()
 print(sum(idade))
 
 """
-
+"""
 dic = dict()
 
 for i in range(3):
@@ -50,4 +50,60 @@ for i in range(3):
 
 print(dic)
 
+"""
+"""
+funcionarios = {'daniel': 440, 'douglas': 696, 'frederico': 104, 'gustavo': 841 }
 
+while True:
+    colaborador = input('digite o registro do colaborador, fim pra terminar:')
+    if colaborador == 'fim':
+        break
+    if colaborador in funcionarios:
+        print('registro', funcionarios[colaborador])
+    else:
+        print('colaborador não encontrado no registro!')
+
+"""
+
+"""
+
+                       # Exercício #
+# Crie um dicionário que simule um estoque para os seguintes produtos 
+# após as criação faça os seguintes passos:
+# 1- delete o registro 'mouse' de seu dicionário
+# 2- Adicione o produto notebook com 10 unidades no seu dicionário
+# 3- Subtraia -1 da quantidade do produto fone
+
+estoque = {'fone': 5, 'tv': 2, 'teclado': 6, 'mouse': 0}
+
+del estoque['mouse']
+
+estoque['notebook'] = 10
+
+estoque['fone'] = 4
+
+print (estoque)
+
+"""
+
+"""
+idade = {'daniel': 4002, 'douglas': 555, 'cleiton': 60}
+
+print (  max(idade.values() ) )
+
+"""
+
+alunos = {}
+
+for i in range(2):
+    Nome = input('nome:')
+    media = float(input('media:'))
+
+    if media >= 7:
+        situacao = 'aprovado'
+    else: 
+        situacao = 'reprovado'
+
+    alunos[Nome] = situacao
+
+print(alunos)
