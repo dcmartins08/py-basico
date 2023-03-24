@@ -1,4 +1,4 @@
-"""
+
 Tabela = {"alface":0.45,"batata":1.20,"tomate":0.45,"feijão":1.50}
 
 print(Tabela)
@@ -6,8 +6,6 @@ print(Tabela["feijão"])
 
 Tabela["milho"] = 10
 print(Tabela)
-
-print('//'*30)
 
 comida = {"alface":0.45,"milho": 10}
 
@@ -25,22 +23,20 @@ comida = {'alface':10 , 'milho':20}
 valores = comida.values()
 print(sum(valores))
 
-print('//'*30)
 
 frutas = {"banana": 2, "maça": 3, "laranja": 1}
 for chave, valor in frutas.items():
     print (chave, "->", valor)
 
-"""
-"""
+
+
 Alunos = {"Daniel": 42, "Tiago": 45, "Rafael": 78, "Carlos": 92}
 print(Alunos)
 
 idade = Alunos.values() 
 print(sum(idade))
 
-"""
-"""
+
 dic = dict()
 
 for i in range(3):
@@ -50,8 +46,8 @@ for i in range(3):
 
 print(dic)
 
-"""
-"""
+
+
 funcionarios = {'daniel': 440, 'douglas': 696, 'frederico': 104, 'gustavo': 841 }
 
 while True:
@@ -63,9 +59,9 @@ while True:
     else:
         print('colaborador não encontrado no registro!')
 
-"""
 
-"""
+
+
 
                        # Exercício #
 # Crie um dicionário que simule um estoque para os seguintes produtos 
@@ -84,14 +80,12 @@ estoque['fone'] = 4
 
 print (estoque)
 
-"""
 
-"""
 idade = {'daniel': 4002, 'douglas': 555, 'cleiton': 60}
 
 print (  max(idade.values() ) )
 
-"""
+
 
 alunos = {}
 
@@ -107,3 +101,8 @@ for i in range(2):
     alunos[Nome] = situacao
 
 print(alunos)
+
+
+
+
+
