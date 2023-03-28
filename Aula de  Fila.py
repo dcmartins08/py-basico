@@ -1,5 +1,5 @@
-'''
-# Aula de Fila       Significa .append(acrescentar) 
+
+# Aula de Fila       Significa .append(acrescentar) pop(remover)
 
 #Exercício
 fila = [0, 10, 20, 30, 40, 50 ]
@@ -10,14 +10,14 @@ fila.append(90)  # insere um elemento no final da fila
 fila.append(100) # insere um elemento no final da fila
 print(fila)
 
-print( fila.pop(0) )   # renove um elemento no final da fila
-print( fila.pop(0) )   # renove um elemento no final da fila
-print( fila.pop(0) )   # renove um elemento no final da fila
-print( fila.pop(0) )   # renove um elemento no final da fila
-print( fila.pop(0) )   # renove um elemento no final da fila
-print( fila.pop(0) )   # renove um elemento no final da fila
+print( fila.pop(0) )   # remove um elemento no final da fila
+print( fila.pop(0) )   # remove um elemento no final da fila
+print( fila.pop(0) )   # remove um elemento no final da fila
+print( fila.pop(0) )   # remove um elemento no final da fila
+print( fila.pop(0) )   # remove um elemento no final da fila
+print( fila.pop(0) )   # remove um elemento no final da fila
 
-'''
+
 # Faça um programa de senha para atendimento em um açougue 
 # O programa deverá ter funções de:
 # - pegar senha
@@ -39,7 +39,7 @@ while True:
     escolha = int(input('1 para add e 2 para rem'))
 
     if escolha == 1:
-        add()
+        rem()
     elif escolha == 2:
         rem()
     else:
