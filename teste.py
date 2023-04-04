@@ -1,24 +1,25 @@
-import tkinter as tk
+from tkinter import * 
+
 class janela:
     def __init__(self, toplevel):
-        self.fr1 = tk.Frame(toplevel)
+        self.fr1 = Frame(toplevel)
         self.fr1.pack()
 
-        self.texto=tk.Label(self.fr1, text='Clique para ficar background amarelo' )
+        self.texto=Label(self.fr1, text='Clique para ficar background amarelo' )
         self.texto['width']=26
         self.texto['height']=3
         self.texto.pack()
 
-        self.botaoverde=tk.Button(self.fr1,text='Clique', command=self.muda_cor)
+        self.botaoverde=Button(self.fr1,text='Clique', command=self.muda_cor)
         self.botaoverde['background']='green'
         self.botaoverde.pack()
 
 
-        self.botao=tk.Button(self.fr1,text='imprimir', command=self.abrijanela)
+        self.botao=Button(self.fr1,text='imprimir', command=self.imprimir)
         self.botao['background']='green'
         self.botao.pack()
 
-        self.campos = tk.Entry()
+        self.campos = Entry()
         self.campos.pack()
 
     
@@ -38,12 +39,9 @@ class janela:
         print('#####')
         print(self.campos.get())
 
-    def abrijanela(self):
-        jn = tk.Toplevel()
-        jn.title('teste nova janela')
-        jn.geometry('350x350')
 
-raiz = tk.Tk()
+
+raiz = Tk()
 raiz.geometry('350x350')
 janela(raiz)
 raiz.mainloop()
